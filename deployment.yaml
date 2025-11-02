@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: mycont
-          image: nginx
+          image: httpd
           ports:
             - containerPort: 80
 ---
